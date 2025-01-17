@@ -1,0 +1,1 @@
+import{r as o,o as r,c as a,b as n,a as s,w as l,d as m}from"./index-C-X2bzaO.js";const i={__name:"IndexPage",setup(p){return(u,e)=>{const t=o("router-link");return r(),a("div",null,[e[1]||(e[1]=n("h1",null,"Home page",-1)),s(t,{to:"/iframe"},{default:l(()=>e[0]||(e[0]=[m("test iframe")])),_:1})])}}};export{i as default};
