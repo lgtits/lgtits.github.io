@@ -24,7 +24,7 @@
             .join("/")
             .replace(/&/g, "~and~") +
           (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
-          `~and~tp=${currentTimestamp}` +
+          `&tp=${currentTimestamp}` +
           l.hash
       );
     </script>
