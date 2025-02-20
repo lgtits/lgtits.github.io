@@ -5,7 +5,7 @@
     <title>Single Page Apps for GitHub Pages</title>
     <script type="text/javascript">
       var pathSegmentsToKeep = 0;
-
+      var currentTimestamp = Date.now();
       var l = window.location;
       l.replace(
         l.protocol +
@@ -24,6 +24,7 @@
             .join("/")
             .replace(/&/g, "~and~") +
           (l.search ? "&" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          `~and~tp=${currentTimestamp}` +
           l.hash
       );
     </script>
